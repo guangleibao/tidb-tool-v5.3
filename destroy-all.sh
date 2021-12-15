@@ -1,0 +1,1 @@
+tiup cluster clean test-c --all
