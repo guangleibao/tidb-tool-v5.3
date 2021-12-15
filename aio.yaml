@@ -18,5 +18,9 @@ grafana_servers:
   - host: 127.0.0.1
 alertmanager_servers:
   - host: 127.0.0.1
+pump_servers:
+  - host: 127.0.0.1
+drainer_servers:
+  - host: 127.0.0.1
 cdc_servers:
   - host: 127.0.0.1

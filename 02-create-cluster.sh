@@ -1,0 +1,1 @@
+tiup cluster deploy test-c aio.yaml
