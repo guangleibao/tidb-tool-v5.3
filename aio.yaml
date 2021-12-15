@@ -13,6 +13,8 @@ tidb_servers:
   - host: 127.0.0.1
 tikv_servers:
   - host: 127.0.0.1
+tiflsah_servers:
+  - host: 127.0.0.1
 monitoring_servers:
   - host: 127.0.0.1
 grafana_servers:
