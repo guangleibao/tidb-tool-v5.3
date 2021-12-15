@@ -1,0 +1,1 @@
+tiup cluster start test-c

@@ -1,5 +1,6 @@
 # # Global variables are applied to all deployments and used as the default value of
 # # the deployments if a specific deployment value is missing.
+# # This configuration is for ALL-in-One-Box test purpose.
 global:
   user: "tidb"
   ssh_port: 22
