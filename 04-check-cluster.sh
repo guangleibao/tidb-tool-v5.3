@@ -1,0 +1,1 @@
+tiup cluster display test-c
