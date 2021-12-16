@@ -1,1 +1,1 @@
-tiup cluster deploy test-c 5.3.0 aio.yaml
+~/.tiup/bin/tiup cluster deploy test-c 5.3.0 aio.yaml

@@ -1,1 +1,1 @@
-tiup cluster start test-c
+~/.tiup/bin/tiup cluster start test-c

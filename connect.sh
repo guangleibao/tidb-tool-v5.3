@@ -1,1 +1,1 @@
-tiup client
+~/.tiup/bin/tiup client

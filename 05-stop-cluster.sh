@@ -1,1 +1,1 @@
-tiup cluster stop test-c
+~/.tiup/bin/tiup cluster stop test-c
