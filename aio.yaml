@@ -13,8 +13,8 @@ tidb_servers:
   - host: 127.0.0.1
 tikv_servers:
   - host: 127.0.0.1
-tiflash_servers:
-  - host: 127.0.0.1
+#tiflash_servers:
+#  - host: 127.0.0.1
 monitoring_servers:
   - host: 127.0.0.1
 grafana_servers:
@@ -25,5 +25,5 @@ alertmanager_servers:
 #  - host: 127.0.0.1
 #drainer_servers:
 #  - host: 127.0.0.1
-cdc_servers:
-  - host: 127.0.0.1
+#cdc_servers:
+#  - host: 127.0.0.1
