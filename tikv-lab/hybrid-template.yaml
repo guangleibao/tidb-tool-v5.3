@@ -28,6 +28,8 @@ server_configs:
     replication.max-replicas: 3
 pd_servers:
   - host: <HOST_BASTION_PRIVATE_IP>
+    client_port: 2379
+    peer_port: 2380
     config:
       server.labels:
         zone: pdx
@@ -35,6 +37,8 @@ pd_servers:
         rack: rack1
         host: host1
   - host: <HOST_DEMO_PRIVATE_IP>
+    client_port: 2379
+    peer_port: 2380
     config:
       server.labels:
         zone: pdx
@@ -42,6 +46,8 @@ pd_servers:
         rack: rack2
         host: host2
   - host: <HOST_DEMO_PRIVATE_IP>
+    client_port: 2381
+    peer_port: 2382
     config:
       server.labels:
         zone: pdx
