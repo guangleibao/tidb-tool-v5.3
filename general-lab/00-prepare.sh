@@ -1,3 +1,3 @@
 sudo apt update -y
-sudo apt install ntp -y
+sudo apt install ntp mysql-client -y
 sudo systemctl restart ntp

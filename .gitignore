@@ -13,3 +13,8 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Lab related
+cloud-env.sh
+host-bastion-env.sh
+host-demo-env.sh
