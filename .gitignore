@@ -14,7 +14,8 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-# Lab related
+# Lab related temporary files
 cloud-env.sh
 host-bastion-env.sh
 host-demo-env.sh
+

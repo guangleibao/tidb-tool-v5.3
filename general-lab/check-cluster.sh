@@ -1,1 +1,1 @@
-~/.tiup/bin/tiup cluster display test-c
+~/.tiup/bin/tiup cluster display test-general
