@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # For playground
 #~/.tiup/bin/tiup client
 
