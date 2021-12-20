@@ -19,12 +19,21 @@ tikv_servers:
   - host: <HOST_BASTION_PRIVATE_IP>
     port: 20160
     status_port: 20180
+    server.labels:
+        zone: z1
+        host: h1
   - host: <HOST_DEMO_PRIVATE_IP>
     port: 20160
     status_port: 20180
+    server.labels:
+        zone: z1
+        host: h2
   - host: <HOST_DEMO_PRIVATE_IP>
     port: 20161
     status_port: 20181
+    server.labels:
+        zone: z1
+        host: h2
 #tiflash_servers:
 #  - host: 127.0.0.1
 monitoring_servers:
