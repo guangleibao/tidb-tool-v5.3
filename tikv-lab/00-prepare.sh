@@ -18,8 +18,8 @@ HOST_DEMO_PRIVATE_IP=`aws ec2 describe-instances \
 --output text \
 --region ${REGION_CODE}`
 
-echo export HOST_BASTION_PRIVATE_IP=${HOST_BASTION_PRIVATE_IP} > ./host-bastion-env.sh
-echo ssh -A ${HOST_BASTION_PRIVATE_IP} > ./ssh-to-bastion.sh
+echo export HOST_DEMO_PRIVATE_IP=${HOST_DEMO_PRIVATE_IP} > ./host-demo-env.sh
+echo ssh -A ${HOST_DEMO_PRIVATE_IP} > ./ssh-to-demo.sh
 
 # Setup Bastion Host Info
 HOST_BASTION_PRIVATE_IP=`aws ec2 describe-instances \
@@ -28,8 +28,8 @@ HOST_BASTION_PRIVATE_IP=`aws ec2 describe-instances \
 --output text \
 --region ${REGION_CODE}`
 
-echo export HOST_DEMO_PRIVATE_IP=${HOST_DEMO_PRIVATE_IP} > ./host-demo-env.sh
-echo ssh -A ${HOST_DEMO_PRIVATE_IP} > ./ssh-to-demo.sh
+echo export HOST_BASTION_PRIVATE_IP=${HOST_BASTION_PRIVATE_IP} > ./host-bastion-env.sh
+echo ssh -A ${HOST_BASTION_PRIVATE_IP} > ./ssh-to-bastion.sh
 
 # Setup hybrid.yaml
 cp ./hybrid-template.yaml ./hybrid.yaml
