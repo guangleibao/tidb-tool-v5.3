@@ -1,5 +1,7 @@
-# For playground 
+# For playground
 #~/.tiup/bin/tiup client
 
+source ./host-demo-env.sh
+
 # For cluster
-mysql -h 127.0.0.1 -P 4000 -u root
+mysql -h ${HOST_DEMO_PRIVATE_IP} 4000 -u root

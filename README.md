@@ -39,6 +39,7 @@
 ### Manual Preparation
 + Spin up two EC2 instances, tag:Name them with `bastion` and `demo` respectively.
 + Assign read EC2 service role to above EC2 instances.
++ Smooth the network traffics between them.
 ### How to Run
 + Simple setup scripts: `00`, `01`, `02`
 + Start/Stop scripts: `03`, `04`
