@@ -1,6 +1,21 @@
 # # Global variables are applied to all deployments and used as the default value of
 # # the deployments if a specific deployment value is missing.
 # # This configuration is container free, and for the simplest minimal ALL-in-One-Box test purpose.
+# # Goal Deployment Sample:
+# Cluster type:    tidb
+# Cluster name:    test-kv
+# Cluster version: v5.2.3
+# Role          Host        Ports        OS/Arch       Directories
+# ----          ----        -----        -------       -----------
+# pd            10.0.0.244  2379/2380    linux/x86_64  /tidb-deploy/pd-2379,/tidb-data/pd-2379
+# tikv          10.0.0.244  20160/20180  linux/x86_64  /tidb-deploy/tikv-20160,/tidb-data/tikv-20160
+# tikv          10.0.0.253  20160/20180  linux/x86_64  /tidb-deploy/tikv-20160,/tidb-data/tikv-20160
+# tikv          10.0.0.253  20161/20181  linux/x86_64  /tidb-deploy/tikv-20161,/tidb-data/tikv-20161
+# tidb          10.0.0.253  4000/10080   linux/x86_64  /tidb-deploy/tidb-4000
+# prometheus    10.0.0.253  9090         linux/x86_64  /tidb-deploy/prometheus-9090,/tidb-data/prometheus-9090
+# grafana       10.0.0.244  3000         linux/x86_64  /tidb-deploy/grafana-3000
+# alertmanager  10.0.0.244  9093/9094    linux/x86_64  /tidb-deploy/alertmanager-9093,/tidb-data/alertmanager-9093
+
 global:
   user: "tidb"
   ssh_port: 22
