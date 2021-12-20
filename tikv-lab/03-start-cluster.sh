@@ -1,1 +1,1 @@
-~/.tiup/bin/tiup cluster start test-db
+~/.tiup/bin/tiup cluster start test-kv

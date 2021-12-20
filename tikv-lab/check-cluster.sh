@@ -1,1 +1,1 @@
-~/.tiup/bin/tiup cluster display test-db
+~/.tiup/bin/tiup cluster display test-kv

@@ -36,3 +36,4 @@ chmod +x ./host-demo-env.sh
 cp ./hybrid-template.yaml ./hybrid.yaml
 sed -i '' -e "s/<HOST_BASTION_PRIVATE_IP>/${HOST_BASTION_PRIVATE_IP}/g" ./hybrid.yaml 2>/dev/null
 sed -i '' -e "s/<HOST_DEMO_PRIVATE_IP>/${HOST_DEMO_PRIVATE_IP}/g" ./hybrid.yaml 2>/dev/null
+echo hybrid.yaml for cluster prepared

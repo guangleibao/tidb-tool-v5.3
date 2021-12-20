@@ -1,1 +1,1 @@
-~/.tiup/bin/tiup cluster deploy test-db 5.2.3 hybrid.yaml
+~/.tiup/bin/tiup cluster deploy test-kv 5.2.3 hybrid.yaml
