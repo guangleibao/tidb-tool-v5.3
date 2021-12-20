@@ -1,0 +1,1 @@
+~/.tiup/bin/tiup cluster stop test-db
