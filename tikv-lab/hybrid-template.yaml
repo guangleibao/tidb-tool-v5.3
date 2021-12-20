@@ -7,7 +7,7 @@ global:
   deploy_dir: "/tidb-deploy"
   data_dir: "/tidb-data"
   arch: "amd64"   ## Supported values: "amd64", "arm64" (default: "amd64")
-server_config:
+server_configs:
   pd:
     replication.location-labels: ["zone","dc","rack","host"]
     replication.max-replicas: 3
