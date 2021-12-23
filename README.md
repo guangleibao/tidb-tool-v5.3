@@ -45,5 +45,5 @@
 + Simple setup scripts: `00`, `01`, `02`
 + Start/Stop scripts: `03`, `04`
 + Simple check: `check-cluster.sh`
-+ Simple connection for MySQL interface: `connect.sh`
++ Simple connection for MySQL interface: `connect-demo.sh` and `connect-bastion.sh`
 + Tier down **caution**: `destroy-all.sh`
