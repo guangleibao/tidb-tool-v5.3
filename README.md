@@ -6,7 +6,7 @@
 2. `ssh` into this VM by using `-A` option (for simple handling the `-i` and `-u` options with `tiup` tool).
 3. Make sure current user has passwordless `sudo` permission.
 
-## general-lab
+## general-lab folder
 ### Concept
 + `general-lab` will deploy an all-in-one cluster on single EC2 instance.
 + No replication for any components.
@@ -19,7 +19,7 @@
 + Simple connection for MySQL interface: `connect.sh`
 + Tier down **caution**: `destroy-all.sh`
 
-## tidb-lab
+## tidb-lab folder
 ### Concept
 + `tikv-lab` will deploy an all-in-one cluster on single EC2 instance.
 + 2 tidb servers will be deployed.
@@ -32,7 +32,7 @@
 + Simple connection for MySQL interface: `connect-4000.sh` or `connect-4001.sh`
 + Tier down **caution**: `destroy-all.sh`
 
-## tikv-lab
+## tikv-lab folder
 ### Concept
 + Currently scripts are designed for AWS
 + `tikv-lab` will deploy a hybrid cluster across two EC2 instances.
