@@ -34,6 +34,7 @@
 
 ## tikv-lab
 ### Concept
++ Currently scripts are designed for AWS
 + `tikv-lab` will deploy a hybrid cluster across two EC2 instances.
 + 3 tikv servers will be deployed.
 ### Manual Preparation
